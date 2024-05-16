@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="my_world">
+
+    <!-- Ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Wall -->
+    <include>
+      <uri>model://wall</uri>
+      <pose>2 0 0 0 0 0</pose>
+    </include>
+
+    <!-- TurtleBot 3 robot -->
+    <include>
+      <uri>model://turtlebot3_waffle</uri>
+      <pose>0 0 0.1 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>
